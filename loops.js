@@ -10,14 +10,15 @@ function forLoop(array){
   return array ;
 }
 
+
 function whileLoop(number){
+
   while(number>0){
-    if (number>0){
-      console.log(--number);
+      console.log(number --);
     }
-    
-   else if (number ===0){
+
+  if (number===0){
       console.log('done');
-    }
   }
+    
 }
